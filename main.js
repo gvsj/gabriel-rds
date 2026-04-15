@@ -52,7 +52,7 @@ function updatePledgeDisplay(count) {
 if (pledgeBtn && pledgeCount) {
   const hasPledged = localStorage.getItem('standup_pledged') === 'true';
 
-  // Initialise display
+  // Initialize display
   updatePledgeDisplay(getCount());
 
   if (hasPledged) {
